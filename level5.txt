@@ -1,0 +1,2 @@
+# this will find exactly the human readable file I am looking for 
+find . -type f | xargs file | grep text
